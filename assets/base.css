@@ -5,6 +5,10 @@
   --alpha-badge-border: 0.1;
 }
 
+.div_class_kartik{
+  background-color: yellow;
+}
+
 .product-card-wrapper .card,
 .contains-card--product {
   --border-radius: var(--product-card-corner-radius);
