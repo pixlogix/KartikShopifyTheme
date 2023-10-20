@@ -1,4 +1,5 @@
 {
+  "wrapper": "div#div_id.div_class_kartik[attribute-one=value]",
   "sections": {
     "main": {
       "type": "main-product",

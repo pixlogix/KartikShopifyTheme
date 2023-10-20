@@ -1,7 +1,10 @@
 {
+  "wrapper": "div#div_id.div_class_kartik[attribute-one=value]",
   "sections": {
     "main": {
-      "type": "main-404"
+      "type": "main-404",
+      "settings": {
+      }
     }
   },
   "order": [
