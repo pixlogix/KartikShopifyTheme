@@ -23,7 +23,7 @@
   </div>
   <div class="header-bottom">
     <div class="wrap">
-          <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset">
+          <a href="{{ routes.root_url }}" class="header__heading-link link link--text focus-inset" id="logo">
             {%- if settings.logo != blank -%}
               <div class="header__heading-logo-wrapper">
                 {%- assign logo_alt = settings.logo.alt | default: shop.name | escape -%}
