@@ -251,12 +251,12 @@
       }
     {% endstyle %}
 
-    {{ 'css/vendor/owl.carousel.min.css' | asset_url | stylesheet_tag }}
-    {{ 'css/style.css' | asset_url | stylesheet_tag }}
-    {{ 'css/icon.css' | asset_url | stylesheet_tag }}
-    {{ 'css/responsive.css' | asset_url | stylesheet_tag }}
+    {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
+    {{ 'style.css' | asset_url | stylesheet_tag }}
+    {{ 'icon.css' | asset_url | stylesheet_tag }}
+    {{ 'responsive.css' | asset_url | stylesheet_tag }}
 
-    <script src="{{ 'js/vendor/modernizr.min.js' | asset_url }}" defer="defer"></script>
+    <script src="{{ 'modernizr.min.js' | asset_url }}" defer="defer"></script>
     {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
       {{ 'component-localization-form.css' | asset_url | stylesheet_tag: preload: true }}
       <script src="{{ 'localization-form.js' | asset_url }}" defer="defer"></script>
