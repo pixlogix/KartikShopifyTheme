@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
     "name": "t:sections.header.name",
     "type": "header",
     "sections": {
@@ -24,3 +25,18 @@
         "header"
     ]
 }
+=======
+  "name": "t:sections.header.name",
+  "type": "header",
+  "sections": {
+    "header": {
+      "type": "header",
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "header"
+  ]
+}
+>>>>>>> 4ec5b4abcdf04de3d18e0c749eaa018e1841264f
